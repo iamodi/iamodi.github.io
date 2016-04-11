@@ -1,0 +1,156 @@
+/*
+
+Title: Resume Template
+
+Author: Modi Chen
+
+*/
+
+/* Layout
+------------------------------------------*/
+
+.container {
+	margin:0 auto;
+	width: 88%;
+	max-width: 1140px;  /*1140px*/
+	font-family: Helvetica; 
+
+}
+
+section {
+	float: left;
+}
+
+a {
+	color: black;
+	text-decoration:none;
+}
+
+.portrait-photo {
+	float: left;
+	margin-top: -4em;
+	margin-bottom: 2em;
+}
+
+
+
+.email-icon, .portfolio-icon, .phone-icon, .diploma-icon { 
+	float: left;
+	line-height: 1.4;
+	font-family: Helvetica;
+	font-size: 26px;
+
+}
+
+
+
+h1 {
+    font-family: 'Montez', cursive;
+	font-size: 120px;
+	font-style: italic;
+
+}
+.info {
+	float: left;
+	display:flex;
+	flex-direction:column;
+	line-height: 2;
+	}
+
+
+.align-left {
+	float: left;
+	margin-right: .5em;
+	width: 27%;
+    height: auto;
+}
+
+.fontcolor {
+	line-height: 1.4;
+	color: #02d2ee;
+	font-weight: bold;
+	font-size: 26px
+}
+
+
+
+
+/* Nav
+------------------------------------------*/
+nav {
+	float: left;
+}
+
+nav ul{
+	margin-top: 1.7em;
+	list-style: none;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	font-size: 43px;
+	color: black;
+	font-family: 'Montez', cursive;
+	font-style: italic;
+}
+
+
+
+nav ul li a {
+	margin-right: 3em;
+}
+
+
+
+
+
+/* Media query
+------------------------------------------*/
+
+@media screen and (min-width: 600px) {
+
+	header {
+		margin-top: -4em;
+	}
+
+	h1 {
+    font-family: 'Montez', cursive;
+	font-size: 130px;
+	font-style: italic;
+    }
+
+
+	.info {
+	display:flex;
+	flex-direction:row;
+	flex-wrap: wrap;
+	line-height: 2;
+	width: 65%;
+	margin-left: 3em;
+	}
+
+	.email-icon, .portfolio-icon, .phone-icon, .diploma-icon { 
+	line-height: 1.4;
+	font-family: Helvetica;
+	width: 48%;
+	font-size: 18px;
+	 }
+
+    
+    .align-left {
+	float: left;
+	margin-right: .5em;
+	width: 60px;
+    }
+
+    .fontcolor {
+	line-height: 1.4;
+	color: #02d2ee;
+	font-weight: bold;
+	font-size: 20px
+}
+
+
+
+}/*end of media screen
+
+
