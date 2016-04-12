@@ -3,9 +3,11 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Modi's Resume</title>
-    <link rel="stylesheet" href="css/style-sheet.css">
-     <link rel="stylesheet" href="css/hover.css">
-    <link href='https://fonts.googleapis.com/css?family=Montez|Arizonia|Lemon|Knewave|Mrs+Sheppards' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style-sheet.css">
+        <link rel="stylesheet" href="css/hover.css">
+        <link href='https://fonts.googleapis.com/css?family=Montez|Arizonia|Lemon|Knewave|Mrs+Sheppards' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,300,700' rel='stylesheet' type='text/css'>
 
 </head>
 
@@ -54,7 +56,7 @@
 
 	    </section>
 
-	    <nav>
+	    <nav class="sticky">
 		    	<ul>
 		    		<li><a class="scroll hvr-underline-from-left" href="#about">About</a></li>
 
@@ -71,49 +73,46 @@
 
 
 		<section id="skills">
-			<img src="" alt="">
+			<img class="skill-img" src="img/skills.jpg" alt="skill">
 		</section> <!-- .skills-->
 	    
 	    <section id="qualification">
 	        <div class="qualification-container">
-		        <div class="yoobee">	
-			    	<div class="school">
+		        <div class="paragraph">	
+			    	<div class="title">
 			    		<p><span class="fontcolor">YOOBEE</span>
 						<br>ACG School of Design</p>
 			    	</div> <!-- school -->
 			    
 
-			    	<div class="school-intro">
-			    		<p>Web Development<br>04.2016 - current</p><p class="font-grey" align="justify" >This web design boot camp is including the front end devlopment skills such as html/css Javascipt, Content Management Systems(CMS), Digital Marketing and Data Visualisation.</p>
-					</div> <!-- school-intro -->
-                </div> <!-- yoobee -->
+			    	<div class="passage">
+			    		<p>Web Development<br>04.2016 - current</p><p class="font-grey">This web design boot camp is including the front end devlopment skills such as html/css Javascipt, Content Management Systems(CMS), Digital Marketing and Data Visualisation.</p>
+					</div> 
+                </div> 
 				<hr>
 
-		        <div class="yoobee">	
-			    	<div class="school">
+		        <div class="paragraph">	
+			    	<div class="title">
 			    		<p><span class="fontcolor">MONASH</span>
 						<br>Melbourne, Australia</p>
-			    	</div> <!-- school -->
-			    
+			    	</div> 
 
-			    	<div class="school-intro">
-			    		<p>Postgraduat Diploma of Arts<br>07.2009 -11.2010</p><p class="font-grey" align="justify" >This course equiped me with rigorous theoretical and practical training in analysis of international development policies and programs targeting urban environments, climate change, biodiversity conservation, food security, management of rural livelihoods and commons resources, and privatisation of ecosystem services.</p>
-					</div> <!-- school-intro -->
-                </div> <!-- yoobee -->
+			    	<div class="passage">
+			    		<p>Postgraduat Diploma of Arts<br>07.2009 -11.2010</p><p class="font-grey" >This course equiped me with rigorous theoretical and practical training in analysis of international development policies and programs targeting urban environments, climate change, biodiversity conservation, food security, management of rural livelihoods and commons resources, and privatisation of ecosystem services.</p>
+					</div> 
+                </div> 
 				<hr>
 
-				<div class="qualification-container">
-		        <div class="yoobee">	
-			    	<div class="school">
+		        <div class="paragraph">	
+			    	<div class="title">
 			    		<p><span class="fontcolor">KUNMING UNIVERSITY OF SCIENCE AND TECHNOLOGY</span>
 						<br>Yunnan, China</p>
-			    	</div> <!-- school -->
-			    
+			    	</div> 
 
-			    	<div class="school-intro">
+			    	<div class="passage">
 			    		<p>Bachelor of Industry Design</p><p class="font-grey" align="justify" > The creative act of determining and defining a product's form takes place in advance of the physical act of making a product. This distinguishes industrial design from craft-based design, where the form of the product is determined by the product's creator at the time of its creation.</p>
-					</div> <!-- school-intro -->
-                </div> <!-- yoobee -->
+					</div> 
+                </div> 
 				<hr>
 
 
@@ -123,15 +122,15 @@
 
 	    <section id="history">
 	    	 <div class="history-container">
-		        <div class="aa">
-			    	<div class="company-name">
+		        <div class="paragraph">
+			    	<div class="title">
 			    	    <img src="http://www.aa.co.nz/themes/aa/images/logos/Travel.svg" alt="AAlogo">	
 			    		<p><span class="fontcolor">AA Tourism Publishing Ltd</span>
 						<br>Department of Digital Performance</p>
-			    	</div> <!-- compnay name -->
+			    	</div> 
 			    
 
-			    	<div class="job-intro">
+			    	<div class="passage">
 			    		<p>Web Designer<br>06.2015 - 07.2015 (Contractor)</p><p class="font-grey">
 			    			<ul>
 			    				<li class="job-task">Website design for AA’s client: NZ cycle trail</li>
@@ -140,29 +139,48 @@
 			    				<li class="job-task">Design animation mockup for mobileversion</li>
 			    			</ul>
 			    		</p>
-					</div> <!-- job-intro -->
-                </div> <!-- aa -->
+					</div> 
+                </div>
 				<hr>
 
-		       <div class="aa">
-			    	<div class="company-name">
-			    	    <img src="http://www.aa.co.nz/themes/aa/images/logos/Travel.svg" alt="AAlogo">	
-			    		<p><span class="fontcolor">AA Tourism Publishing Ltd</span>
-						<br>Department of Digital Performance</p>
+		       <div class="paragraph">
+			    	<div class="title">
+			    	    <img src="http://newscred.com/assets/img/v3/casestudies/client-logos/hp-logo-color.png" alt="Hplogo" width="130">	
+			    		<p><span class="fontcolor">Hewlett-Packard Development Company, L.P</span>
+						<br>Enterprise Services, Applications Global Delivery</p>
 			    	</div> <!-- compnay name -->
 			    
 
-			    	<div class="job-intro">
-			    		<p>Web Designer<br>06.2015 - 07.2015 (Contractor)</p><p class="font-grey">
+			    	<div class="passage">
+			    		<p>UX/Visual Designer<br>03.2006 – 04. 2008</p><p class="font-grey">
 			    			<ul>
-			    				<li class="job-task">Website design for AA’s client: NZ cycle trail</li>
+			    				<li class="job-task">	Design visual page, original artwork, wireframe, icongrphy for website, applications and system interfaces, translate the vision and requirements of the product.</li>
+			    				<li class="job-task">Maintain, design and develop e-commerce website, animation mini-site, e-newsletters and other online projects.</li>
+			    				<li class="job-task">	Design animation demo for Conceptual Protype </li>
+			    				<li class="job-task">Graphic design for print (posters, signage, and promotion material, etc)</li>
+			    			</ul>
+			    		</p>
+					</div> 
+                </div> 
+				<hr>
+
+				<div class="paragraph">
+			    	<div class="title">
+			    		<p><span class="fontcolor">SHANGHAI DNAD ADVERTISEMENT CO. , LTD</span>
+						
+			    	</div>
+
+			    	<div class="passage">
+			    		<p>Web/Graphic Designer<br>06.2015 - 07.2015 (Contractor)</p><p class="font-grey">
+			    			<ul>
+			    				<li class="job-task">Involved in the company’s website design and liaise with the technical team to launch the website by html/css development.</li>
 			    				<li class="job-task">Create page mock ups and develop a custom Wordpress CMS graphic UI</li>
 			    				<li class="job-task">Apply a user frendly approach to improve their current website.</li>
 			    				<li class="job-task">Design animation mockup for mobileversion</li>
 			    			</ul>
 			    		</p>
-					</div> <!-- job-intro -->
-                </div> <!-- aa -->
+					</div> 
+                </div> 
 				<hr>
 
 		   </div> <!-- history-container -->
@@ -170,12 +188,133 @@
 	    </section> <!-- .history-->
 		
 		<section id="portfolio">
-	    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat sit saepe error soluta vero aperiam, veritatis, nesciunt voluptatum illum culpa eligendi molestias unde! Hic repudiandae similique asperiores quos aliquid autem.</p>
-	    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat sit saepe error soluta vero aperiam, veritatis, nesciunt voluptatum illum culpa eligendi molestias unde! Hic repudiandae similique asperiores quos aliquid autem.</p>
-	    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat sit saepe error soluta vero aperiam, veritatis, nesciunt voluptatum illum culpa eligendi molestias unde! Hic repudiandae similique asperiores quos aliquid autem.</p>
+	    	<div class="portfolio-container">
+	    		<a href="#">
+	    		<figure>
+	    		  <img class="portfolio-photo" src="img/cycletrail.jpg" alt="cycle-trail" >
+	    		  <figcaption>New Zealand Cycle Trail web</figcaption>
+	    		</figure>
+	    		</a>
+
+	    		<a href="#">
+	    		<figure>
+	    		  <img class="portfolio-photo" src="img/RMHC.jpg" alt="RMHC" >
+	    		  <figcaption>RMHC mobile app</figcaption>
+	    		</figure>
+	    		</a>
+
+				<a href="#">
+	    		<figure>
+	    		  <img class="portfolio-photo" src="img/rclub.jpg" alt="R-club web" >
+	    		  <figcaption>R-club web</figcaption>
+	    		</figure>
+	    		</a>
+
+				<a href="#">
+	    		<figure>
+	    		  <img class="portfolio-photo" src="img/olay.jpg" alt="olay" >
+	    		  <figcaption>P&G Counter Diamond Wall</figcaption>
+	    		</figure>
+	    		</a>
+
+				<a href="#">
+	    		<figure>
+	    		  <img class="portfolio-photo" src="img/bulaosen.jpg" alt="bulaosen" >
+	    		  <figcaption>Bu Lao Sen Product Brochure</figcaption>
+	    		</figure>
+	    		</a>
+
+				<a href="#">
+	    		<figure>
+	    		  <img class="portfolio-photo" src="img/hp_portal.jpg" alt="EG Finance Online Pricing System" >
+	    		  <figcaption>EG Finance Online Pricing System</figcaption>
+	    		</figure>
+	    		</a>
+
+				<a href="#">
+	    		<figure>
+	    		  <img class="portfolio-photo" src="img/kfc.jpg" alt="KFC" >
+	    		  <figcaption>KFC mobile app</figcaption>
+	    		</figure>
+	    		</a>
+
+				<a href="#">
+	    		<figure>
+	    		  <img class="portfolio-photo" src="img/hbis.jpg" alt="hbis" >
+	    		  <figcaption>Online Trading E-Market – Tang Steel</figcaption>
+	    		</figure>
+	    		</a>
+
+				<a href="#">
+	    		<figure>
+	    		  <img class="portfolio-photo" src="img/topic-selector.jpg" alt="topic-selector" >
+	    		  <figcaption>E-reader application protype</figcaption>
+	    		</figure>
+	    		</a>
+
+				<a href="#">
+	    		<figure>
+	    		  <img class="portfolio-photo" src="img/christmascard.jpg" alt="christmascard" >
+	    		  <figcaption>card design for internal greetings</figcaption>
+	    		</figure>
+	    		</a>
+
+
+				<a href="#">
+	    		<figure>
+	    		  <img class="portfolio-photo" src="img/poster.jpg" alt="poster" >
+	    		  <figcaption>poster design for internal team image building</figcaption>
+	    		</figure>
+	    		</a>
+
+				<a href="#">
+	    		<figure>
+	    		  <img class="portfolio-photo" src="img/okay_mobile.jpg" alt="okay_mobile" >
+	    		  <figcaption>web design for Cosmetics Companys</figcaption>
+	    		</figure>
+	    		</a>
+
+				<a href="#">
+	    		<figure>
+	    		  <img class="portfolio-photo" src="img/jiangsu_mobile.jpg" alt="jiangsu_mobile" >
+	    		  <figcaption>Cloud computing management system</figcaption>
+	    		</figure>
+	    		</a>
+
+
+	    	</div>
 	    </section> <!-- .portfolio-->
 
     </div> <!-- container -->
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+ <script>
+
+ 	$(function() { 
+
+ 		$(".scroll").click(function(event){		
+ 		event.preventDefault();
+ 		$('html,body').animate({
+ 			scrollTop:$(this.hash).offset().top}, 
+ 			500
+ 			);
+ 		});
+
+ 	});
+
+ 	         $(document).ready(function () {
+ 	            var windowHeight = $(window).height();
+ 	            $(window).bind('scroll', function () {
+ 	                if ($(window).scrollTop() > windowHeight) {
+ 	                    $('.sticky').addClass('sticky-fixed');
+ 	                }
+ 	                else {
+ 	                    $('.sticky').removeClass('sticky-fixed');
+ 	                }
+ 	            });
+ 	});
+
+ </script>
 
 </body>
 </html>

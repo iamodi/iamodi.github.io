@@ -13,8 +13,10 @@ Author: Modi Chen
 	margin:0 auto;
 	width: 88%;
 	max-width: 1140px;  /*1140px*/
-	font-family: Helvetica; 
-	font-weight: 200;
+	font-family:'Josefin Sans', sans-serif; 
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 1.2;
 
 }
 
@@ -41,7 +43,6 @@ a {
 .email-icon, .portfolio-icon, .phone-icon, .diploma-icon { 
 	float: left;
 	line-height: 1.4;
-	font-family: Helvetica;
 	font-size: 26px;
 
 }
@@ -72,17 +73,22 @@ h1 {
 .fontcolor {
 	line-height: 1.4;
 	color: #02d2ee;
-	font-weight: bold;
-	font-size: 26px
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 700;
+	font-size: 40px
 }
 
-
+	.skill-img {
+		margin: 0 auto;
+		width: 100%;
+	}
 
 
 /* Nav
 ------------------------------------------*/
 nav {
 	float: left;
+	margin-left: -2em;
 }
 
 nav ul{
@@ -91,7 +97,7 @@ nav ul{
 	display: -webkit-flex;
 	display: -ms-flex;
 	display: flex;
-	font-size: 43px;
+	font-size: 47px;
 	color: black;
 	font-family: 'Montez', cursive;
 	font-style: italic;
@@ -101,7 +107,17 @@ nav ul{
 
 nav ul li a {
 	margin-right: 3em;
-	margin-left: -1em;
+}
+
+.sticky {
+	width:100%;
+	background: white;
+}
+
+.sticky-fixed {
+	position: fixed;
+	top: 0;
+	margin-top: 0;
 }
 
 
@@ -114,21 +130,30 @@ hr {
 	margin: 0 auto;
 }
 
-.school-intro {
-	font-size: 20px;
+.passage {
+	font-size: 30px;
 	
 }
 
-.school {
-	font-size: 30px;
+.title{
+	margin-top: 2em;
+	font-size: 40px;
 }
 
 .font-grey {
     	color: #959595;
     }
 
-/* History
+/* Portfolio
 ------------------------------------------*/
+	.portfolio-photo {
+		width: 450px;
+	}
+
+		figcaption {
+		text-align: center;
+		font-size: 20px;
+	}
 
 
 /* Media query
@@ -152,7 +177,7 @@ hr {
 	flex-direction:row;
 	flex-wrap: wrap;
 	line-height: 2;
-	width: 65%;
+	width: 61%;
 	margin-left: 3em;
 	}
 
@@ -179,14 +204,14 @@ hr {
 
     .qualification-container, .history-container {
      
-     margin-top: 3em;
+     margin-top: 10em;
     }
 
-	.yoobee {
+	.paragraph {
 	 display: flex;
 	}
 
-    .school, .company-name {
+    .title {
     	margin-top: 1.7em;
     	margin-right: 3em;
     	text-align: right;
@@ -195,7 +220,7 @@ hr {
     	font-size: 17px;
     }
 
-    .school-intro, .job-intro {
+    .passage {
     	float: right;
     	width: 40%;
     	font-size: 17px;
@@ -215,12 +240,41 @@ hr {
 		padding-bottom: 5px;
 	}
 
-	.aa {
+	.aa, {
 		display: flex;
 	}
 
+	figure {
+		    display: block;
+	    -webkit-margin-before: 1em;
+	    -webkit-margin-after: 1em;
+	    -webkit-margin-start: 0px;
+	    -webkit-margin-end: 40px;
 
-   
+		
+	}
+	
+
+	figcaption {
+		text-align: center;
+		font-size: 17px;
+	}
+
+	.portfolio-container {
+		display: flex;
+		flex-wrap: wrap;
+		margin-top: 10em;
+	}
+
+	.portfolio-photo {
+		width: 340px;
+	}
+
+	.skill-img {
+		margin: 0 auto;
+		width: 100%;
+	}
+    
 
 
 
