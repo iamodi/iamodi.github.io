@@ -14,11 +14,16 @@ Author: Modi Chen
 	width: 88%;
 	max-width: 1140px;  /*1140px*/
 	font-family: Helvetica; 
+	font-weight: 200;
 
 }
 
 section {
 	float: left;
+}
+
+section#history {
+  width: 100%;
 }
 
 a {
@@ -31,7 +36,6 @@ a {
 	margin-top: -4em;
 	margin-bottom: 2em;
 }
-
 
 
 .email-icon, .portfolio-icon, .phone-icon, .diploma-icon { 
@@ -97,10 +101,34 @@ nav ul{
 
 nav ul li a {
 	margin-right: 3em;
+	margin-left: -1em;
 }
 
 
+/* Qualification
+------------------------------------------*/
+hr {
+	border-style: dashed;
+	border-color: #d7d7d7;
+	width: 100%;
+	margin: 0 auto;
+}
 
+.school-intro {
+	font-size: 20px;
+	
+}
+
+.school {
+	font-size: 30px;
+}
+
+.font-grey {
+    	color: #959595;
+    }
+
+/* History
+------------------------------------------*/
 
 
 /* Media query
@@ -147,7 +175,54 @@ nav ul li a {
 	color: #02d2ee;
 	font-weight: bold;
 	font-size: 20px
-}
+    }
+
+    .qualification-container, .history-container {
+     
+     margin-top: 3em;
+    }
+
+	.yoobee {
+	 display: flex;
+	}
+
+    .school, .company-name {
+    	margin-top: 1.7em;
+    	margin-right: 3em;
+    	text-align: right;
+    	float: right;
+    	width: 40%;
+    	font-size: 17px;
+    }
+
+    .school-intro, .job-intro {
+    	float: right;
+    	width: 40%;
+    	font-size: 17px;
+    	margin-bottom: 2em;
+    }
+
+    hr {
+    	width: 70%;
+    }
+
+    .font-grey {
+    	color: #959595;
+    }
+	
+	.job-task {
+		color: #959595;
+		padding-bottom: 5px;
+	}
+
+	.aa {
+		display: flex;
+	}
+
+
+   
+
+
 
 
 
