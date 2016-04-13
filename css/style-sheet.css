@@ -9,7 +9,7 @@ Author: Modi Chen
 /* Layout
 ------------------------------------------*/
 
-.container {
+.container, footer{
 	margin:0 auto;
 	width: 88%;
 	max-width: 1140px;  /*1140px*/
@@ -18,6 +18,16 @@ Author: Modi Chen
 	font-size: 20px;
 	line-height: 1.2;
 
+}
+
+footer {
+	background-color: #e7e7e7;
+	width: 1140px;
+	height: 60px;
+	padding-top: 25px;
+	float: left;
+	text-align: center;
+	margin-bottom: 3em;
 }
 
 section {
@@ -97,7 +107,7 @@ nav ul{
 	display: -webkit-flex;
 	display: -ms-flex;
 	display: flex;
-	font-size: 47px;
+	font-size: 20px;
 	color: black;
 	font-family: 'Montez', cursive;
 	font-style: italic;
@@ -264,6 +274,7 @@ hr {
 		display: flex;
 		flex-wrap: wrap;
 		margin-top: 10em;
+		margin-bottom: 7em;
 	}
 
 	.portfolio-photo {
@@ -275,6 +286,39 @@ hr {
 		width: 100%;
 	}
     
+nav {
+	float: left;
+	margin-left: -2em;
+}
+
+nav ul{
+	margin-top: 1.7em;
+	list-style: none;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	font-size: 47px;
+	color: black;
+	font-family: 'Montez', cursive;
+	font-style: italic;
+}
+
+
+
+nav ul li a {
+	margin-right: 2.7em;
+}
+
+.sticky {
+	width:100%;
+	background: white;
+}
+
+.sticky-fixed {
+	position: fixed;
+	top: 0;
+	margin-top: 0;
+}
 
 
 
